@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "program",
+]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+[package]
+name = "hello-solana-steel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.14.0"// change to the latest version at the moment 
+steel = { git = "https://github.com/steel-programming/steel.git" }
+
+[dev-dependencies]
+solana-program-test = "1.14.0" // change to the latest version at the moment 
+solana-sdk = "1.14.0" // change to the latest version at the moment 
+
+[lib]
+crate-type = ["cdylib", "lib"]
