@@ -18,6 +18,6 @@ steel = { git = "https://github.com/steel-programming/steel.git" }
 [dev-dependencies]
 solana-program-test = "1.14.0" // change to the latest version at the moment 
 solana-sdk = "1.14.0" // change to the latest version at the moment 
-
+bankrun = "0.2.0"
 [lib]
 crate-type = ["cdylib", "lib"]
