@@ -1,0 +1,11 @@
+[package]
+name = "escrow_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+steel = "0.1"  # make sure you use the latest version
+
+[dev-dependencies]
+solana-program-test = "1.10"  # maken sure to Use the latest version
+anchor-lang = "0.24"  # For Anchor compatibility
